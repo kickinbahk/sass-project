@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    console.log("ready for form");
     Stripe.setPublishableKey($('meta[name="stripe-key"]').attr('content'));
     // Watch form submission
 
